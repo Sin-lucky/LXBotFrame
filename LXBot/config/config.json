@@ -1,0 +1,20 @@
+{
+    "token_desc": "OneBot的Token,没有留空",
+    "token": "",
+    "admin_desc": "Bot的管理员账号,可以有多个",
+    "admin": [
+    ],
+    "send_start_message_desc": "是否发送启动消息,默认不发送",
+    "send_start_message": false,
+    "send_start_message_to_admin_desc": "是否发送启动消息至哪些管理员",
+    "send_start_message_to_admin": [
+    ],
+    "ws_url_desc": "OneBot的WebSocket地址,没有留空",
+    "ws_url": "ws://127.0.0.1:3001",
+    "http_url_desc": "OneBot的HTTP地址,没有留空",
+    "http_url": "http://127.0.0.1:3000",
+    "report_port_desc": "OneBot的HTTP报告端口,没有留空",
+    "report_port": 18080,
+    "log_level_desc": "日志等级,可选值: debug, info, warning, error, critical",
+    "log_level": "info"
+}
